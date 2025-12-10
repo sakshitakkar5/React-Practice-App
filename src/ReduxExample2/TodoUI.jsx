@@ -19,7 +19,7 @@ settodoVal("");
     <div>
       <h2>Todo-Example</h2><br />
       <input type="text" value={todoVal} onChange={(e) => settodoVal(e.target.value)} className='border-2 border-black border-solid'/> 
-      <button onClick={handleadd}>Add Todo</button>
+      <button onClick={handleadd}>Add Todo Todo</button>
 
       <ul>
         {
