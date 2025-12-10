@@ -1,0 +1,7 @@
+.message{
+    color: burlywood;
+    background-color: paleturquoise;
+    border: 2px solid blue;
+    border-radius: 20px;
+    text-align: center;
+}

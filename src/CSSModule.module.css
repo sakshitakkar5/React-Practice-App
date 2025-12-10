@@ -1,0 +1,7 @@
+.message{
+    color: purple;
+    background-color: orange;
+    border: 2px solid blue;
+    border-radius: 20px;
+    text-align: center;
+}

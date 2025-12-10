@@ -1,0 +1,11 @@
+.container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.food-list {
+  display: flex;
+  justify-content: center;
+}

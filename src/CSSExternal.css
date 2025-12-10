@@ -1,0 +1,16 @@
+
+
+.message{
+    color: red;
+    background-color: aqua;
+    border: 2px solid blue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.heading{
+    color:blue;
+}
+.back{
+    background-color: yellow;
+}

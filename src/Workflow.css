@@ -1,0 +1,135 @@
+.workflow-container {
+  text-align: center;
+  background: #f9fafb;
+  padding: 40px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.workflow-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+.workflow-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Rows */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+
+/* Boxes */
+.workflow-box {
+  width: 220px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.workflow-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.workflow-box h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px 0 6px 0;
+  color: #333;
+}
+
+.workflow-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #444;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* Arrows */
+.arrow-line {
+  position: absolute;
+}
+
+.right-arrow {
+  right: -60px;
+  top: 60px;
+  width: 55px;
+  height: 24px;
+}
+
+.left-arrow {
+  left: -60px;
+  top: 60px;
+  width: 55px;
+  height: 24px;
+}
+
+.down-arrow {
+  bottom: -70px;
+  left: 100px;
+  width: 24px;
+  height: 55px;
+}
+
+/* Icon */
+.icon {
+  width: 28px;
+  height: 28px;
+  margin-top: 4px;
+}
+
+/* Light Colors */
+.light-sky { background-color: #e0f2fe; }
+.light-blue { background-color: #c7de95; }
+.light-green { background-color: #cd949e; }
+.light-orange { background-color: #fff7ed; }
+.light-purple { background-color: #a293e5; }
+.light-lime { background-color: #d5e8da; }
+.light-red { background-color: #e9cbcb; }
+.light-yellow { background-color: #fef9c3; }
+
+/* Footer */
+.workflow-footer {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #444;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Button */
+.download-btn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.download-btn:hover {
+  background-color: #1e40af;
+}
