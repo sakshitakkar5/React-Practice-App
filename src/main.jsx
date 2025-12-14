@@ -85,9 +85,11 @@ import Parent from './Routing/Parent.jsx';
 import ParentRouting from './RoutingExample1/ParentRouting.jsx';
 import ParentPractice from './Routing/ParentPractice.jsx';
 // import ParentRouting2 from './RoutingExample2.jsx/ParentRouting2.jsx';
-import { Provider } from 'react-redux';
-import { store2 } from './store2.jsx';
+
+// import { store2 } from './store2.jsx';
 import App from './App.jsx';
+import { Provider } from 'react-redux';
+import {store3} from './store3.jsx'
 
 const Elt1 = React.createElement('div',{style:{backgroundColor:'pink'}},React.createElement('h1',{style:{color:'green'}},'Nested create React Element Example'))
 // function Car(props){
@@ -112,7 +114,7 @@ let Years = [2000, 2002, 2004];
 let carInfo = {brand:"Ford", color:"Black"}
 createRoot(document.getElementById('root')).render(
 
-  <Provider store={store2}>
+  <Provider store={store3}>
 
     <App />
   </Provider>
